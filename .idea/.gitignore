@@ -8,3 +8,9 @@
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
+/misc.xml
+/modules.xml
+/machine-learning-lifecycle.iml
+/inspectionProfiles/Project_Default.xml
+/inspectionProfiles/profiles_settings.xml
+/vcs.xml
