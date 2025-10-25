@@ -1,0 +1,58 @@
+### 🍄 Predict mushroom edibility(poisonous)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "cap-shape": "x",
+  "cap-surface": "s",
+  "cap-color": "n",
+  "bruises": "t",
+  "odor": "p",
+  "gill-attachment": "f",
+  "gill-spacing": "c",
+  "gill-size": "n",
+  "gill-color": "k",
+  "stalk-shape": "e",
+  "stalk-root": "b",
+  "stalk-surface-above-ring": "s",
+  "stalk-surface-below-ring": "s",
+  "stalk-color-above-ring": "w",
+  "stalk-color-below-ring": "w",
+  "veil-type": "p",
+  "veil-color": "w",
+  "ring-number": "o",
+  "ring-type": "p",
+  "spore-print-color": "k",
+  "population": "s",
+  "habitat": "u"
+}
+
+### 🍄 Predict mushroom edibility(edible)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "cap-shape": "x",
+  "cap-surface": "s",
+  "cap-color": "y",
+  "bruises": "t",
+  "odor": "a",
+  "gill-attachment": "f",
+  "gill-spacing": "c",
+  "gill-size": "b",
+  "gill-color": "k",
+  "stalk-shape": "e",
+  "stalk-root": "b",
+  "stalk-surface-above-ring": "o",
+  "stalk-surface-below-ring": "s",
+  "stalk-color-above-ring": "w",
+  "stalk-color-below-ring": "w",
+  "veil-type": "p",
+  "veil-color": "w",
+  "ring-number": "o",
+  "ring-type": "p",
+  "spore-print-color": "n",
+  "population": "n",
+  "habitat": "g"
+}
+
