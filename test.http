@@ -53,6 +53,6 @@ Content-Type: application/json
   "ring-type": "p",
   "spore-print-color": "n",
   "population": "n",
-  "habitat": "g"
+  "habitat": ""
 }
 
